@@ -1,0 +1,148 @@
+ @media screen {
+    
+
+    
+ }
+ body
+ {
+    background-image: url('/images/pexels-cátia-matos-1072179.jpg'); 
+     /* background-image: url('/images/pexels-cottonbro-studio-5473337.jpg');  */
+    /* background-size: cover; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+ }
+ nav
+ {
+    margin-left: 10px;
+ border-radius: 4px;
+
+border-style: none;
+ border-color:aqua;
+ border-width: 1px;
+ box-shadow: 3px 5px 40px;
+width: 650px;
+
+ }
+ ul
+ {
+    display: inline-flex;
+    list-style: none;
+    color: rgb(255, 255, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+   
+ }
+ li
+ {
+    margin-left: 20px;
+    font-size: 20px;
+ }
+ li:hover
+ {
+    font-style: italic;
+ }
+ 
+ h1
+ {
+   margin-top: 40px;
+    font-size: 120px;
+    color:rgb(0, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline;
+   
+ }
+ nav,h1:hover{
+    color: rgb(0, 255, 102);
+ }
+ .medpic
+ {
+   height: 300px;
+   width: 300px;
+   border-radius: 100%;
+ }
+ .meddiv
+ {
+   margin-left: 900px;
+   margin-top: -400px;
+ }
+ p
+ {
+    margin-top: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+
+ }
+ .skillshead
+ {
+
+ }
+ a:link
+ {
+    text-decoration: none;
+    color: white;
+    font
+ }
+ a:link::after
+ {
+    color: white;
+ }
+ a:link::before
+ {
+    color: white;
+ }
+ :any-link
+ {
+    color: white;
+ }
+ h2
+ {
+    font-size: 50px;
+    color:rgb(33, 222, 222);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 3px 5px 40px  rgb(0, 255, 102) ;
+    
+ }
+ .courses
+ {
+    margin-top: 140px;
+    height: 100vh;
+ }
+ details
+ {
+    color: white;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ ol
+ {
+   
+    list-style: none;
+    color: rgb(255, 255, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+   
+ }
+ .innerdetail
+ {
+    color: white;
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ button
+{
+    border-radius: 40px;
+    width: 250px;
+    height: 40px;
+    border-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    font-size: large;
+    
+}
+button:hover
+{
+    background-color: aqua;
+    box-shadow: 3px 5px 40px  rgb(0, 255, 102) ;
+}
