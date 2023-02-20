@@ -5,10 +5,15 @@
  }
  body
  {
-    background-image: url('./pexels-cátia-matos-1072179.jpg'); 
+    /* background-image: url('/udemyresponsive/images/pexels-cátia-matos-1072179.jpg');  */
      /* background-image: url('/images/pexels-cottonbro-studio-5473337.jpg');  */
     /* background-size: cover; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* Created with https://www.css-gradient.com */
+background: #D401FF;
+background: -webkit-linear-gradient(top left, #D401FF, #2C3ECA);
+background: -moz-linear-gradient(top left, #D401FF, #2C3ECA);
+background: linear-gradient(to bottom right, #D401FF, #2C3ECA);
    
  }
  nav
@@ -17,7 +22,7 @@
  border-radius: 4px;
 
 border-style: none;
- border-color:aqua;
+ border-color:black;
  border-width: 1px;
  box-shadow: 3px 5px 40px;
 width: 650px;
@@ -27,7 +32,7 @@ width: 650px;
  {
     display: inline-flex;
     list-style: none;
-    color: rgb(255, 255, 255);
+    color: black;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 100;
    
@@ -46,12 +51,13 @@ width: 650px;
  {
    margin-top: 40px;
     font-size: 120px;
-    color:rgb(0, 255, 255);
+    color: rgb(255, 0, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: inline;
+ 
    
  }
- nav,h1:hover{
+ h1:hover{
     color: rgb(0, 255, 102);
  }
  .medpic
@@ -59,6 +65,7 @@ width: 650px;
    height: 300px;
    width: 300px;
    border-radius: 100%;
+   box-shadow: 3px 5px 40px  rgb(0, 0, 0) ;
  }
  .meddiv
  {
@@ -74,15 +81,12 @@ width: 650px;
     padding-right: 30px;
 
  }
- .skillshead
- {
 
- }
  a:link
  {
     text-decoration: none;
     color: white;
-    font
+    
  }
  a:link::after
  {
@@ -99,9 +103,10 @@ width: 650px;
  h2
  {
     font-size: 50px;
-    color:rgb(33, 222, 222);
+    color:rgb(255, 255, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    box-shadow: 3px 5px 40px  rgb(0, 255, 102) ;
+    
+    background-color: transparent;
     
  }
  .courses
@@ -145,4 +150,112 @@ button:hover
 {
     background-color: aqua;
     box-shadow: 3px 5px 40px  rgb(0, 255, 102) ;
+}
+.boxs
+{
+   background-color: black;
+}
+table
+{
+     margin-top: 20px;
+}
+#home
+{
+   margin-top: 50px;
+}
+
+
+@media only screen and (max-width:600px) 
+{
+
+
+   body
+   {
+      /* background-image: url('/udemyresponsive/images/pexels-cátia-matos-1072179.jpg');  */
+       /* background-image: url('/images/pexels-cottonbro-studio-5473337.jpg');  */
+      /* background-size: cover; */
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      
+  background: #D401FF;
+  background: -webkit-linear-gradient(top left, #D401FF, rgb(43, 57, 166));
+  background: -moz-linear-gradient(top left, #D401FF, rgb(43, 57, 166));
+  background: linear-gradient(to bottom right, #D401FF, rgb(43, 57, 166));
+     
+   }
+h1 
+{
+  
+  
+    font-size: 50px;
+    color: rgb(255, 0, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+ 
+   
+ }
+
+nav 
+{
+   width:100%;
+   max-width: 100%;
+  
+ border-radius: 4px;
+
+border-style: none;
+ border-color:black;
+ border-width: 1px;
+ box-shadow: 3px 5px 40px;
+
+
+
+}
+li
+ {
+    /* margin-left: 10px; */
+    font-size: 10px;
+ }
+table 
+{
+   column-count:auto;
+  min-width: 100%; 
+
+
+}
+.boxs
+{
+   background-color: black;
+    min-width: 100%; 
+   display: block;
+   align-self: center;
+}
+.medpic
+{
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  box-shadow: 3px 5px 40px  rgb(0, 0, 0) ;
+  margin-left: 160px;
+  
+}
+.meddiv
+ {
+   margin-left: 160px;
+   margin-top: -400px;
+   display: block;
+   height: 50px;
+  width: 50px;
+
+ }
+ .courses
+ {
+    margin-top:100px;
+    height: 100%;
+    display: block;
+ }
+ #home
+ {
+    margin-top: 50px;
+    margin-bottom: 300px;
+ }
+ 
 }
