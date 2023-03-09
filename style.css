@@ -113,6 +113,7 @@ width: 650px;
  {
     margin-top: 140px;
     height: 100vh;
+  gap:20px;
  }
  details
  {
